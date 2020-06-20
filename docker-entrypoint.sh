@@ -2,4 +2,8 @@
 
 #/usr/bin/rclone mount ${RCLONE_CONFIG_OPTS} ${RCLONE_OPTS} gcrypt: /mnt/
 
-/usr/bin/rclone ${SUBCMD} ${CONFIG} ${PARAMS}
+# temp : /usr/bin/rclone ${SUBCMD} ${CONFIG} ${PARAMS}
+
+echo "From docker-chirag-rclone entry point..."
+
+which rclone
