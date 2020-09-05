@@ -9,3 +9,5 @@ echo "From docker-chirag-rclone entry point..."
 cat download_list.txt
 
 which rclone
+
+echo "Docker entry point start here..."
