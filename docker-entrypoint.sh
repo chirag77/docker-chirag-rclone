@@ -6,8 +6,12 @@
 
 echo "From docker-chirag-rclone entry point..."
 
-cat download_list.txt
-
 which rclone
+
+pwd
+
+find . -name "rclone.conf"
+
+cat download_list.txt
 
 echo "Docker entry point start here..."
