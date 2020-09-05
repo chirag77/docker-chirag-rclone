@@ -10,6 +10,8 @@ which rclone
 
 pwd
 
+tree
+
 find . -name "rclone.conf"
 
 cat download_list.txt
